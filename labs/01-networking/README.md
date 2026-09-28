@@ -16,7 +16,9 @@ Understand TCP from both sides: server bind/listen, client connect, request/resp
 2. In another terminal run `src/tcp_client.py`.
 3. Observe the connection and response.
 4. Change the client message and repeat.
-5. Stop the server and document what changes.
+5. In a third terminal run `src/port_probe.py` while the server is running.
+6. Stop the server and run the probe again.
+7. Record the difference in `notes/experiment-01.md`.
 
 ## Security observations
 
