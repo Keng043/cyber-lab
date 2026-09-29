@@ -19,6 +19,11 @@ Understand TCP from both sides: server bind/listen, client connect, request/resp
 5. In a third terminal run `src/port_probe.py` while the server is running.
 6. Stop the server and run the probe again.
 7. Record the difference in `notes/experiment-01.md`.
+8. Start the server again and run `src/service_probe.py` to see the service response.
+9. Record what the response tells you in `notes/experiment-02.md`.
+10. Start the server again and run `src/malformed_probe.py`.
+11. Observe how empty, unusual, and maximum-size input is handled.
+12. Record the result in `notes/experiment-03.md`.
 
 ## Security observations
 
