@@ -64,3 +64,11 @@ Identify the loopback interface and any listening TCP/UDP sockets. Do not scan s
 - What does `chmod 600` allow the file owner to do?
 - Why is a listening socket worth investigating during a security review?
 - What is the difference between a process and a network service?
+
+## Exercise 5 — Users, groups, and privilege boundaries
+
+Run the commands in `notes/experiment-03.md` and record the observations.
+
+## Exercise 6 — Process-to-service investigation
+
+Run the commands in `notes/experiment-04.md`. Compare the process list with listening sockets and note where ownership information is available.
